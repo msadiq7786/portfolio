@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteName = "Mohammed Sadiq";
-export const siteTitle =
-  "Mohammed Sadiq | Full Stack Web Developer in India";
+export const siteTitle = "Mohammed Sadiq | Full Stack Web Developer in India";
 export const siteDescription =
   "Portfolio of Mohammed Sadiq, a full stack web developer in India building responsive websites, modern web apps, React projects, and freelance digital products.";
 
@@ -48,6 +47,9 @@ export const defaultMetadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
+  },
+  verification: {
+    google: "xWuT3YgDTujYzWW7mtxOfwTZPkkY2olCm0QTVhNUl1Q",
   },
 };
 
