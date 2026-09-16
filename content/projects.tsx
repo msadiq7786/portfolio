@@ -2,6 +2,63 @@ import { Project } from "@/types/project";
 
 export const PROJECTS: Project[] = [
   {
+    id: "sptraders",
+    title: "SP Traders",
+    period: {
+      start: "08.2026",
+    },
+    link: "https://sp-traders.vercel.app",
+    skills: [
+      "next.js",
+      "typescript",
+      "express.js",
+      "mongodb",
+      "better auth",
+      "tanstack query",
+      "inngest",
+      "zod",
+    ],
+    description: `**SP-Traders** — A full-stack LDO ordering platform designed to streamline fuel order management between customers and the business.
+* Designed the platform to reduce manual order coordination and provide a **structured digital workflow for LDO sales and delivery management**.
+* Enabled customers to **place LDO orders with delivery address and order details** through a responsive web interface.
+* Built an **admin dashboard** to manage customers, review orders, update order statuses, and monitor business activity from a centralized interface.
+* Implemented **secure authentication and role-based access control** for customers and administrators using Better Auth.
+* Integrated Gmail notifications with Inngest-powered asynchronous workflows to reliably send real-time order updates to administrators and customers.`,
+  },
+  {
+    id: "fixbuddy",
+    title: "FixBuddy",
+    period: {
+      start: "06.2025",
+    },
+    link: "https://fix-buddy-user.vercel.app",
+    skills: ["react", "express", "mongodb", "prisma", "socketio", "cloudinary"],
+    description: `A full-stack professional service marketplace that connects users with skilled local professionals (Captains) for on-demand services.
+
+* Find nearby professionals and raise service requests based on location and required skills
+* Enable real-time service tracking and communication using Socket.io and location mapping
+* Provide separate user and professional workflows for managing service requests
+* Support secure authentication, image uploads, and centralized platform management
+* Streamline the service lifecycle from request creation to completion
+
+`,
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+        <rect width="64" height="64" rx="18" fill="#111827" />
+        <path
+          d="M18 18H33C41.2843 18 48 24.7157 48 33C48 41.2843 41.2843 48 33 48H18V18Z"
+          fill="#7CF058"
+        />
+        <path
+          d="M25 26H33C36.866 26 40 29.134 40 33C40 36.866 36.866 40 33 40H25V26Z"
+          fill="#111827"
+        />
+        <circle cx="42" cy="22" r="4" fill="#7CF058" />
+      </svg>
+    ),
+  },
+
+  {
     id: "redirect",
     title: "Redirect",
     period: {
