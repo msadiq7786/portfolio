@@ -2,28 +2,25 @@ import { Project } from "@/types/project";
 
 export const PROJECTS: Project[] = [
   {
-    id: "sptraders",
-    title: "SP Traders",
+    id: "wisdomprimary",
+    title: "Wisdom Primary School",
     period: {
-      start: "08.2026",
+      start: "05.2026",
     },
-    link: "https://sp-traders.vercel.app",
-    skills: [
-      "next.js",
-      "typescript",
-      "express.js",
-      "mongodb",
-      "better auth",
-      "tanstack query",
-      "inngest",
-      "zod",
-    ],
-    description: `**SP-Traders** — A full-stack LDO ordering platform designed to streamline fuel order management between customers and the business.
-* Designed the platform to reduce manual order coordination and provide a **structured digital workflow for LDO sales and delivery management**.
-* Enabled customers to **place LDO orders with delivery address and order details** through a responsive web interface.
-* Built an **admin dashboard** to manage customers, review orders, update order statuses, and monitor business activity from a centralized interface.
-* Implemented **secure authentication and role-based access control** for customers and administrators using Better Auth.
-* Integrated Gmail notifications with Inngest-powered asynchronous workflows to reliably send real-time order updates to administrators and customers.`,
+    link: "https://www.wisdomprimary.in",
+    skills: ["next.js", "typescript", "tailwindcss"],
+    description: `**Wisdom Primary School** — A production institutional website built for a real-world client to give the school a professional, structured online presence.
+* Designed and launched a **production-ready school website** providing structured access to academics, facilities, gallery, and contact information.
+* Built **responsive, reusable UI components** ensuring a consistent experience across mobile, tablet, and desktop devices.
+* Implemented **on-page SEO** with metadata, an XML sitemap, and robots.txt, and integrated **Google Search Console** to improve crawlability and search-indexing readiness from launch.
+* Optimized assets and layouts for **fast page loads**, delivering a reliable, real-world production website end-to-end from requirements to deployment.`,
+    icon: (
+      <img
+        src="https://res.cloudinary.com/ddr1ynq4c/image/upload/v1790516047/favicon_hzx2qs.png"
+        alt="Wisdom Primary School logo"
+        className="object-fit h-4 w-4"
+      />
+    ),
   },
   {
     id: "fixbuddy",
